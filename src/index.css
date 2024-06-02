@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.registration_place {
+  @apply text-lg;
+}
+.registration_place a,
+.apply_for_evisa a {
+  @apply underline-offset-1 underline hover:bg-blue-900 transition-all hover:text-white;
+}
+
+.apply_for_evisa ul {
+  @apply !list-disc m-auto px-5;
+}
+
+.apply_for_evisa {
+  @apply text-lg;
+}
